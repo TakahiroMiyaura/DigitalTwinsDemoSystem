@@ -26,7 +26,9 @@
 
 * Visual Studio Code 1.50.1
 * Plugins: Azure IoT Hub(動作確認用),Remote Development
-* Node.js : v8.11.3(Raspberry PI Beacon化　　　    v10.13.0(Azure IoT Hubとの連携)
+* Node.js
+    * v8.11.3(Raspberry PI Beacon化
+    * v10.13.0(Azure IoT Hubとの連携)
 * Python:3.7.3(センサー情報収集、Json化)
 
 ### 利用するAzureサービスと参考にしたリファレンス
