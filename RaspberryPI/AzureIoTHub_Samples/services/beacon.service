@@ -1,0 +1,12 @@
+[Unit]
+Description = iBeaconService
+
+[Service]
+ExecStart=/usr/bin/sudo /usr/local/ndenv/shims/node /home/takapi/AzureIoTHub_Samples/beacon/bleacon.js
+WorkingDirectory=/home/takapi/AzureIoTHub_Samples/beacon
+Restart=always
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
+

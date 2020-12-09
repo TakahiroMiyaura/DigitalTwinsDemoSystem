@@ -1,0 +1,18 @@
+{
+  "interval": 10000,
+  "isEmulated":false,
+  "deviceId": "raspberrypi4",
+  "sensorName": "Raspberry PI 4",
+  "LEDPinGPIO": 16,
+  "messageMax": -1,
+  "credentialPath": "~/.iot-hub",
+  "transport": "mqtt",
+  "iotEdgeRootCertFilePath": null,
+  "sensorInfoPath": "~/.sensor-infos/all_sensor_infos.json",
+  "iBeaconOption":{
+    "uuid":"ff7e5227-af72-426c-aca1-1baade641cdb",
+    "major":0,
+    "minor":0,
+    "measuredPower":-59
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "node-ibeacon",
+  "version": "1.0.0",
+  "description": "Client application for Raspberry Pi as iBeacon",
+  "main": "bleacon.js",
+  "dependencies": {
+    "bleacon": "^0.5.1"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "node-azureiothub-samples",
+  "version": "1.0.0",
+  "description": "Client application for Raspberry Pi with Azure IoT Hub",
+  "main": "index.js",
+  "dependencies": {
+    "az-iot-bi": "^0.1.18",
+    "azure-iot-device": "^1.9.3",
+    "azure-iot-device-amqp": "^1.9.3",
+    "azure-iot-device-mqtt": "^1.9.3",
+    "bme280-sensor": "^0.1.6",
+    "onoff": "^5.0.1"
+  },
+  "license": "MIT"
+}

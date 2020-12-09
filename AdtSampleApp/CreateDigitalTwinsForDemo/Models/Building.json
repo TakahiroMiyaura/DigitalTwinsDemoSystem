@@ -1,0 +1,23 @@
+{
+  "@id": "dtmi:demo:Building;1",
+  "@type": "Interface",
+  "displayName": "Buillding",
+  "@context": "dtmi:dtdl:context;2",
+  "contents": [
+    {
+      "@type": "Relationship",
+      "name": "contains",
+      "displayName": "contains"
+    },
+    {
+      "name": "buildingName",
+      "@type": "Property",
+      "schema": "string"
+    },
+    {
+      "name": "address",
+      "@type": "Property",
+      "schema": "string"
+    }
+  ]
+}

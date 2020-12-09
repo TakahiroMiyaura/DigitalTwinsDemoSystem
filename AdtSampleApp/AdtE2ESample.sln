@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.5.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateDigitalTwinsForDemo", "CreateDigitalTwinsForDemo\CreateDigitalTwinsForDemo.csproj", "{CF897904-F925-4849-850B-61D71EDF1884}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoADTFunctionsApp", "DemoADTFunctionsApp\DemoADTFunctionsApp.csproj", "{3C05B62D-D7C0-4905-85E0-42AEF1410E83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF897904-F925-4849-850B-61D71EDF1884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF897904-F925-4849-850B-61D71EDF1884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF897904-F925-4849-850B-61D71EDF1884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF897904-F925-4849-850B-61D71EDF1884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C05B62D-D7C0-4905-85E0-42AEF1410E83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C05B62D-D7C0-4905-85E0-42AEF1410E83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C05B62D-D7C0-4905-85E0-42AEF1410E83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C05B62D-D7C0-4905-85E0-42AEF1410E83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDF02B7A-A866-40C2-A951-D7699E22D26C}
+	EndGlobalSection
+EndGlobal

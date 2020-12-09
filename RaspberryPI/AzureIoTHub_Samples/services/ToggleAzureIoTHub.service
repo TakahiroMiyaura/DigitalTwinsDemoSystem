@@ -1,0 +1,11 @@
+[Unit]
+Description = ToggleAzureIoTHub
+
+[Service]
+ExecStart=/usr/bin/sudo /usr/bin/python /home/takapi/AzureIoTHub_Samples/sensor_monitors/switch_toggle_iot_hub.py
+WorkingDirectory=/home/takapi/AzureIoTHub_Samples/sensor_monitors
+Restart=always
+Type=simple
+
+[Install]
+WantedBy=multi-user.target

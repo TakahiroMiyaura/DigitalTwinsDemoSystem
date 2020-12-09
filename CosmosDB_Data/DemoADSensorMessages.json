@@ -1,0 +1,74 @@
+{
+    "id": "DemoADSensorMessages",
+    "type": "MasterData",
+    "messages": [
+        {
+            "Key": "100000",
+            "Values": "Temperature is dangerously low.Check the Air Conditionar in the room."
+        },
+        {
+            "Key": "100001",
+            "Values": "Temperature is low.Check the Air Conditionar in the room."
+        },
+        {
+            "Key": "100002",
+            "Values": "Temperature is high.Check the Air Conditionar in the room."
+        },
+        {
+            "Key": "100003",
+            "Values": "Temperature is dangerously high.Check the Air Conditionar in the room."
+        },
+        {
+            "Key": "200000",
+            "Values": "Pressure is dangerously low.Check the Air Conditionar in the room."
+        },
+        {
+            "Key": "200001",
+            "Values": "Pressure is low.Check the Air Conditionar in the room."
+        },
+        {
+            "Key": "200002",
+            "Values": "Pressure is high.Check the Air Conditionar in the room."
+        },
+        {
+            "Key": "200003",
+            "Values": "Pressure is dangerously high.Check the Air Conditionar in the room."
+        },
+        {
+            "Key": "300002",
+            "Values": "Humidity is high.Check the Air Conditionar in the room."
+        },
+        {
+            "Key": "300003",
+            "Values": "Humidity is dangerously high.Check the Air Conditionar in the room."
+        },
+        {
+            "Key": "400002",
+            "Values": "Light is high.Check the light in the room."
+        },
+        {
+            "Key": "400003",
+            "Values": "Light is dangerously high.Check the light in the room."
+        },
+        {
+            "Key": "500002",
+            "Values": "Cos2 is high.Air out the room."
+        },
+        {
+            "Key": "500003",
+            "Values": "Cos2 is dangerously high.Air out the room."
+        },
+        {
+            "Key": "600002",
+            "Values": "TVOC is high.Air out the room."
+        },
+        {
+            "Key": "600003",
+            "Values": "TVOC is dangerously high.Air out the room."
+        },
+        {
+            "Key": "000000",
+            "Values": "Sensor is normal."
+        }
+    ]
+}

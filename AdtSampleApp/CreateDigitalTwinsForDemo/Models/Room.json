@@ -1,0 +1,38 @@
+{
+  "@id": "dtmi:demo:Room;1",
+  "@type": "Interface",
+  "displayName": "Room",
+  "contents": [
+    {
+      "@type": "Relationship",
+      "name": "contains",
+      "displayName": "contains"
+    },
+    {
+      "name": "RoomType",
+      "@type": "Property",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "Temperature",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "Humidity",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "IsAlert",
+      "schema": "boolean"
+    },
+    {
+      "@type": "Property",
+      "name": "StatusCode",
+      "schema": "string"
+    }
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

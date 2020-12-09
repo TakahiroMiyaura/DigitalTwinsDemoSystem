@@ -1,0 +1,13 @@
+{
+    "id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+    "type": "Sensor",
+    "SensorName": "Raspberry PI 4",
+    "Temperature": 24.71,
+    "Pressure": 1014.25,
+    "Humidity": 24.43,
+    "Light": 59.29,
+    "Co2": 1754,
+    "TVOC": 395,
+    "StatusCode": "[\"000000\",\"200002\",\"300001\",\"500003\"]",
+    "IsAlert": true
+}

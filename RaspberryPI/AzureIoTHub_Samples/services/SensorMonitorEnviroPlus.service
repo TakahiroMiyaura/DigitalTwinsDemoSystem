@@ -1,0 +1,14 @@
+[Unit]
+Description = SensorMonitorEnviroPlusService
+
+[Service]
+ExecStart=/usr/bin/python /home/takapi/AzureIoTHub_Samples/sensor_monitors/sensor_monitor_enviroplus.py
+WorkingDirectory=/home/takapi/AzureIoTHub_Samples/sensor_monitors
+Restart=always
+Type=simple
+User=takapi
+Group=takapi
+
+[Install]
+WantedBy=multi-user.target
+

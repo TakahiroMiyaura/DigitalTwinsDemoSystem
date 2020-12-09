@@ -1,0 +1,63 @@
+{
+  "@id": "dtmi:demo:Sensor;1",
+  "@type": "Interface",
+  "displayName": "Sensor",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "UUID",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "AnchorId",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "SensorName",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "Temperature",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "Pressure",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "Humidity",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "Light",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "Co2",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "TVOC",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "IsAlert",
+      "schema": "boolean"
+    },
+    {
+      "@type": "Property",
+      "name": "StatusCode",
+      "schema": "string"
+    }
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}

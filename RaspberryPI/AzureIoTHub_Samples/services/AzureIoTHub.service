@@ -1,0 +1,14 @@
+[Unit]
+Description = AzureIotHub
+
+[Service]
+ExecStart=/usr/local/ndenv/shims/node /home/takapi/AzureIoTHub_Samples/AzureIoTHub/index.js 'HostName=Demo-IoTHubForADT.azure-devices.net;DeviceId=raspberrypi4;SharedAccessKey=exum57WxJMJic77Rntvk/5JsA/nVP3vO7NfSTgd8ySo='
+WorkingDirectory=/home/takapi/AzureIoTHub_Samples/AzureIoTHub/
+Restart=always
+Type=simple
+User=takapi
+Group=takapi
+
+[Install]
+WantedBy=multi-user.target
+
